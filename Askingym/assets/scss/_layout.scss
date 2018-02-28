@@ -1,0 +1,43 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: $body-font;
+}
+* {
+  box-sizing: border-box;
+}
+
+.main-container {
+  width: 100%;
+  height: 100%;
+  padding: 0 calc(#{$margin-base} * 4);
+}
+// Splash Screen
+
+.splash-screen {
+  background: $main-gradient;
+  width: 100%;
+  height: 100%;
+  .askingym-splash {
+    animation: slideUp 300ms ease-in 2s forwards;
+    position: relative;
+    opacity: 0;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    bottom: -20px;
+  }
+  to {
+    opacity: 1;
+    bottom: 0px;
+  }
+}
+
+// login
+.login {
+  width: 100%;
+}

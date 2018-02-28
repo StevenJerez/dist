@@ -1,0 +1,13 @@
+$body-font : 'Open Sans', sans-serif;
+$title-font : 'Palanquin', sans-serif;
+$main-color: #6F86D6;
+$main-color-darken: darken($main-color, 10%);
+$secondary-color: #48c6ef;
+$secondary-color-darken: darken($secondary-color, 10%);
+$main-gradient: linear-gradient(to top, $secondary-color 0%, $main-color 100%);
+$gray-color: #E6E6E6;
+$gray-color-darken: darken(#E6E6E6, 40%);
+$border-radius: 4px;
+$black-color: #333435;
+$text-color: #6B6F71;
+$margin-base: 4px;
