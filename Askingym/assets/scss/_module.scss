@@ -4,11 +4,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 .align-right {
   display: block;
   text-align: right;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .register {
@@ -21,4 +26,18 @@
   font-size: 14px;
   margin-bottom: 25px;
   color: $gray-color-darken;
+}
+
+.secondary-bg {
+  background-color: $secondary-color;
+}
+
+.primary-bg {
+  background-color: $main-color-darken;
+}
+
+.cont-btn {
+  position: absolute;
+  left: 0;
+  bottom: 33px;
 }
